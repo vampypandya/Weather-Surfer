@@ -13,9 +13,14 @@
 		2373E6E82752EAD1002DDB0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2373E6E72752EAD1002DDB0B /* Preview Assets.xcassets */; };
 		2373E6EA2752EAD1002DDB0B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373E6E92752EAD1002DDB0B /* Persistence.swift */; };
 		2373E6ED2752EAD2002DDB0B /* Weather_Surfer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2373E6EB2752EAD2002DDB0B /* Weather_Surfer.xcdatamodeld */; };
+		2373E6F42752F6E2002DDB0B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373E6F32752F6E2002DDB0B /* LocationManager.swift */; };
+		2373E6F62752FE97002DDB0B /* WeatherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373E6F52752FE97002DDB0B /* WeatherController.swift */; };
+		2373E6F82752FF8B002DDB0B /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373E6F72752FF8B002DDB0B /* WeatherModel.swift */; };
+		ABFFD0F1852CB97E400CC1AF /* Pods_Weather_Surfer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E64337C1EDC47F4D7998DC /* Pods_Weather_Surfer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01B76D5EA2A315B259CC69ED /* Pods-Weather Surfer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather Surfer.release.xcconfig"; path = "Target Support Files/Pods-Weather Surfer/Pods-Weather Surfer.release.xcconfig"; sourceTree = "<group>"; };
 		2373E6DD2752EACD002DDB0B /* Weather Surfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather Surfer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2373E6E02752EACD002DDB0B /* Weather_SurferApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_SurferApp.swift; sourceTree = "<group>"; };
 		2373E6E22752EACD002DDB0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +28,12 @@
 		2373E6E72752EAD1002DDB0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2373E6E92752EAD1002DDB0B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		2373E6EC2752EAD2002DDB0B /* Weather_Surfer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Weather_Surfer.xcdatamodel; sourceTree = "<group>"; };
+		2373E6F32752F6E2002DDB0B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		2373E6F52752FE97002DDB0B /* WeatherController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherController.swift; sourceTree = "<group>"; };
+		2373E6F72752FF8B002DDB0B /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		2373E6F927535D7C002DDB0B /* Weather-Surfer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Weather-Surfer-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4F7F7298F21D508D019A8C9D /* Pods-Weather Surfer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather Surfer.debug.xcconfig"; path = "Target Support Files/Pods-Weather Surfer/Pods-Weather Surfer.debug.xcconfig"; sourceTree = "<group>"; };
+		63E64337C1EDC47F4D7998DC /* Pods_Weather_Surfer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weather_Surfer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABFFD0F1852CB97E400CC1AF /* Pods_Weather_Surfer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +53,8 @@
 			children = (
 				2373E6DF2752EACD002DDB0B /* Weather Surfer */,
 				2373E6DE2752EACD002DDB0B /* Products */,
+				2BC60B853373936F10FA22A8 /* Pods */,
+				D3D3BA0AF11D00FE46E3063B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,12 +69,16 @@
 		2373E6DF2752EACD002DDB0B /* Weather Surfer */ = {
 			isa = PBXGroup;
 			children = (
+				2373E6F927535D7C002DDB0B /* Weather-Surfer-Info.plist */,
 				2373E6E02752EACD002DDB0B /* Weather_SurferApp.swift */,
 				2373E6E22752EACD002DDB0B /* ContentView.swift */,
 				2373E6E42752EAD1002DDB0B /* Assets.xcassets */,
 				2373E6E92752EAD1002DDB0B /* Persistence.swift */,
 				2373E6EB2752EAD2002DDB0B /* Weather_Surfer.xcdatamodeld */,
 				2373E6E62752EAD1002DDB0B /* Preview Content */,
+				2373E6F32752F6E2002DDB0B /* LocationManager.swift */,
+				2373E6F52752FE97002DDB0B /* WeatherController.swift */,
+				2373E6F72752FF8B002DDB0B /* WeatherModel.swift */,
 			);
 			path = "Weather Surfer";
 			sourceTree = "<group>";
@@ -73,6 +91,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2BC60B853373936F10FA22A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F7F7298F21D508D019A8C9D /* Pods-Weather Surfer.debug.xcconfig */,
+				01B76D5EA2A315B259CC69ED /* Pods-Weather Surfer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3D3BA0AF11D00FE46E3063B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63E64337C1EDC47F4D7998DC /* Pods_Weather_Surfer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2373E6F02752EAD2002DDB0B /* Build configuration list for PBXNativeTarget "Weather Surfer" */;
 			buildPhases = (
+				63DC841B653618B62F717C85 /* [CP] Check Pods Manifest.lock */,
 				2373E6D92752EACD002DDB0B /* Sources */,
 				2373E6DA2752EACD002DDB0B /* Frameworks */,
 				2373E6DB2752EACD002DDB0B /* Resources */,
+				B58F2163455E8B7690065598 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,6 +175,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63DC841B653618B62F717C85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Weather Surfer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B58F2163455E8B7690065598 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Weather Surfer/Pods-Weather Surfer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Weather Surfer/Pods-Weather Surfer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Weather Surfer/Pods-Weather Surfer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2373E6D92752EACD002DDB0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -145,6 +224,9 @@
 			files = (
 				2373E6EA2752EAD1002DDB0B /* Persistence.swift in Sources */,
 				2373E6ED2752EAD2002DDB0B /* Weather_Surfer.xcdatamodeld in Sources */,
+				2373E6F62752FE97002DDB0B /* WeatherController.swift in Sources */,
+				2373E6F82752FF8B002DDB0B /* WeatherModel.swift in Sources */,
+				2373E6F42752F6E2002DDB0B /* LocationManager.swift in Sources */,
 				2373E6E32752EACD002DDB0B /* ContentView.swift in Sources */,
 				2373E6E12752EACD002DDB0B /* Weather_SurferApp.swift in Sources */,
 			);
@@ -271,6 +353,7 @@
 		};
 		2373E6F12752EAD2002DDB0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F7F7298F21D508D019A8C9D /* Pods-Weather Surfer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -280,6 +363,8 @@
 				DEVELOPMENT_TEAM = J3J54YQM42;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weather-Surfer-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Using location to find the weather details";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,6 +385,7 @@
 		};
 		2373E6F22752EAD2002DDB0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B76D5EA2A315B259CC69ED /* Pods-Weather Surfer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +395,8 @@
 				DEVELOPMENT_TEAM = J3J54YQM42;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Weather-Surfer-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Using location to find the weather details";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
